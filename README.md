@@ -102,7 +102,45 @@ The **Galactic and Multiversal Simulation** is the pinnacle of the simulation's 
 
 ## Reinforcement Learning
 
-### Key Concepts
+### 1. Hierarchical Reinforcement Learning
+Agents are equipped with a three-level hierarchical reinforcement learning framework:
+- **High-Level Goals:** Agents select high-level goals such as Economic Growth, Cultural Dominance, and Military Expansion.
+- **Mid-Level Strategies:** Based on the selected high-level goals, agents choose appropriate strategies such as Resource Accumulation, Propaganda Spread, or Diplomatic Influence.
+- **Low-Level Actions:** Finally, the agents execute specific actions that align with their strategies, leveraging PPO (Proximal Policy Optimization) to optimize their decisions.
+
+### 2. Cognitive Architecture
+Each agent is built upon a sophisticated cognitive architecture that includes:
+- **Neural Perception:** Agents process environmental data through neural networks to generate perceptions of the state.
+- **Symbolic Reasoning:** Agents apply symbolic reasoning to infer actions from perceptions, integrating classical AI techniques.
+- **Emotion and Personality Modeling:** Agents have individual personality traits and emotional states that influence their decisions and interactions with others.
+- **Memory Systems:** Agents maintain working memory, long-term memory, episodic memory, and procedural memory, allowing them to learn from past experiences and adjust their strategies dynamically.
+
+### 3. Meta-Learning
+Agents can improve their learning capabilities over time through meta-learning:
+- **Experience Replay:** Agents can revisit past experiences to refine their decision-making models.
+- **Task Adaptation:** Agents can adapt to new tasks more quickly by leveraging learned meta-models.
+- **Cognitive and Behavioral Flexibility:** The cognitive architecture supports adjustments in strategies based on changing environmental conditions or internal states.
+
+### 4. Social and Cultural Dynamics
+- **Cultural Evolution:** Agents' cultural practices evolve over time, influenced by immigration, technological advancements, and wars.
+- **Social Networks:** Agents maintain dynamic social networks, where connections between agents influence their decisions, cooperation, and conflicts.
+- **Cultural Transmission:** Cultural traits and practices are transmitted across generations, impacting the long-term evolution of agent societies.
+
+### 5. Advanced World Simulation
+The simulation environment supports different world types:
+- **Procedural World:** A dynamically generated world with random climate, resources, and population distribution.
+- **Scenario World:** Predefined scenarios such as Ice Age, Global Warming, and Resource-Rich or Resource-Poor environments.
+
+### 6. Explainable AI (XAI)
+- **Decision Trees:** Agents use decision trees trained on past decisions to provide explanations for their actions.
+- **Natural Language Explanations:** Agents generate human-readable explanations based on their cognitive state, emotional influences, and personality traits.
+
+### 7. Artificial General Intelligence (AGI) and Advanced Techniques
+- **Meta-Cognitive Control:** Agents utilize meta-cognition to monitor and control their cognitive processes.
+- **Neural-Symbolic Integration:** Agents combine neural network-based perception with symbolic reasoning for more robust decision-making.
+- **Advanced Social Simulations:** The simulation incorporates complex social interactions, cultural evolution, and the impact of AGI on society.
+
+### 8. Minor Features:
 - **Proximal Policy Optimization (PPO)**: The RL agents use the PPO algorithm to optimize their policies in an environment with continuous state and action spaces.
 - **Multi-Objective Optimization**: Agents are designed to balance multiple conflicting objectives (e.g., economic growth vs. environmental sustainability) using the Pareto front approach. This allows agents to explore a trade-off space and make decisions that are not solely based on a single reward function.
 - **Multi-Agent Coordination**: Simulate complex interactions among multiple agents, including alliances, trade, warfare, and diplomacy.
